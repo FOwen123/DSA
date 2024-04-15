@@ -1,0 +1,19 @@
+Data Structure is a data storage format. It is the collection of values and the format they are stored in, 
+the relationships between the values in the collection as well as the operations applied on the data stored in the structure
+
+Type of Data Structure:
+    1. Array (in Python it is the same as list): good at accessing, reading values, bad at inserting and deleting 
+        An array is a fixed-size collection of elements of the same data type, stored in contiguous memory locations. 
+        Elements can be accessed using their index position, making it efficient for random access but less flexible when it comes to resizing.
+    2. Linked List :
+        A linked list is a collection of nodes, where each node contains data and a reference (or pointer) to the next node in the list. 
+        Linked lists can be singly linked (one reference to the next node) or doubly linked (references to both the next and previous nodes). 
+        They provide dynamic memory allocation and easier insertion and deletion of elements compared to arrays.
+    3. Stack :
+        A stack is a one-ended linear data structure(one end only) which models a real world stack by having two primary operations, namely push and pop.
+        It follows the L-I-F-O(Last In First Out) principle. 
+    4. Queue :
+        A queue is a linear data structure which models real world queues by having two primary operations, namely enqueue and dequeue.
+        It follows the F-I-F-O(First In First Out) principle.
+
+Note: There are many data structures out there and everyday there will possibly be more new data structure. According to Chat GPT, the four above is the fundamental data structures.

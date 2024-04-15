@@ -1,0 +1,41 @@
+Algorithm is a set of steps or instructions for completing a task. ex: recipe, driving direction
+In cs terms, it is a set of steps a program takes to finish a task
+
+Algorithmic thinking is a process to simplify a big problem into smaller problems, and to know what is the best algorithm to solve each small problems
+
+What makes an algorithm an algorithm: 
+    -clearly defined problem statement, input, and output
+    -the steps in the algorithm need to be in a very specific order
+    -the steps also need to be disctinct
+    -the algorithm should produce a result
+    -the algorithm shoul complete in a finite amount of time
+
+Time Complexity is a measure of the amount of time taken by an algorithm to run as a function of the input size. 
+It represents the number of basic operations (such as comparisons, assignments, arithmetic operations, etc.) that the algorithm performs relative to the size of the input.
+
+Space Complexity is a measure of the amount of memory (or space) used by an algorithm as a function of the input size. It measures the amounf of space that is added when an algorithm is trying to solve a problem
+It represents the additional memory required by the algorithm to store data, variables, and function calls on the call stack.
+
+Both of this complexity is expressed using Big O notation.
+Big O is a theoretical definition of the complexity of an algorithm as a function of the size
+O(n)
+- O is order of magnitude of complexity
+- n is a function of the size
+
+Polynomial Run Time O(n^k)
+    -O(1) is a constant run time
+    -O(n) is a linear run time
+    -O(log n) is a logarithmic run time or sublinear
+    -O(n^2) is a quadratic run time
+    -O(n^3) is a cubic run time
+    -O(n log n) is a quasilinear run time
+Exponential Run Time O(k^n)
+    -Brute Force
+    -Factorial/Combinatorial run time
+
+
+Tail optimization, also known as tail call optimization (TCO) or tail recursion optimization, is a technique used by some programming languages and compilers to optimize recursive function calls. 
+It involves reusing the current function's stack frame for a recursive call that appears as the last operation in the function. By doing so, it avoids unnecessary stack frame allocations and 
+enables the recursion to be executed in a loop-like manner, eliminating the risk of stack overflow due to excessive recursion depth. In a traditional recursive function, each recursive call creates a new stack frame,
+which stores the function's local variables and return address, as this countinues, the call stack grows deeper and consumes more memory. 
+
